@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'E Book Hello',
+      title: 'E Book',
       theme: lightTheme,
       home: const SplashScreen(),
     );

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'E Book',
-      theme: ThemeData.dark(),
+      theme: lightTheme,
       home: const SplashScreen(),
     );
   }

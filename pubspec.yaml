@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.0
+  sdk: ">=3.5.4 <3.6.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -36,16 +36,16 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_svg:
   get:
-  syncfusion_flutter_pdfviewer: ^24.2.4
-  lottie: ^3.0.0
-  firebase_core: ^2.25.4
-  firebase_auth: ^4.17.4
-  google_sign_in: ^6.2.1
-  fluttertoast: ^8.2.4
-  image_picker: ^1.0.7
+  syncfusion_flutter_pdfviewer:
+  lottie:
+  firebase_core:
+  firebase_auth:
+  google_sign_in:
+  fluttertoast:
+  image_picker:
   file_picker:
-  cloud_firestore: ^4.15.4
-  firebase_storage: ^11.6.5
+  cloud_firestore:
+  firebase_storage:
   uuid:
 
 
